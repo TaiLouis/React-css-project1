@@ -1,0 +1,39 @@
+
+body {
+    font-weight: 400;
+    line-height: 1.7;
+    color: #777;
+    padding:3rem;
+    box-sizing: border-box;
+  
+  }
+  
+.heading-primary {  
+    color: #fff;
+    text-transform: uppercase;  
+    backface-visibility: hidden; /*chong rung lac*/
+  
+    &--main {
+      display: block;
+      font-size: 6rem;
+      font-weight: 400;
+      letter-spacing: 3.5rem;
+      animation-name: moveInleft;
+      animation-duration: 2s;
+    
+    }
+    
+    &--sub {
+      display: block;
+      font-size: 2rem;
+      letter-spacing: 1.7rem;
+      font-weight: 400;
+    
+      animation-name: moveInRight;
+      animation-duration: 2s;
+      margin-bottom: 4rem;
+    
+    }
+  }
+  
+  
