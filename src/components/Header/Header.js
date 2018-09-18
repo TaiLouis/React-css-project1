@@ -1,6 +1,5 @@
 import React from "react"
 import logo from '../../static/img/logo-white.png'
-import "../../sass/main.scss"
 
 
 const Header = (props) => {
