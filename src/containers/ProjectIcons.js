@@ -7,7 +7,7 @@ import { basic_map } from "react-icons-kit/linea/basic_map"
 
 //lets say the icons on your side navigation are all color red
 const SideIconContainer = 
-    withBaseIcon({ size: 64, style: {color: '#EF233C'}})
+    withBaseIcon({ size: 64, style: {color: 'green' }})
 
 export const BasicWorld = () => <SideIconContainer icon={basic_world}/>
 export const BasicCompass = () => <SideIconContainer icon={basic_compass}/>
